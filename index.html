@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Money-master</title>
+    <!-- =============== Bootstrap CSS link ============= -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h2 class="fw-bold text-center mt-5 pt-2 pb-4">Money Master</h2>
+    </header>
+
+    <main>
+
+
+        <div class="container overflow fw-bold ">
+            <div class="row ">
+                <div class="col-6">
+
+                    <img class=" " style="height: 730px; width: 600px"
+                        src=https://www.projectengineer.net/wp-content/uploads/2018/04/calculation-pad.png alt="">
+
+
+                </div>
+                <div class="col-5" style="background : #F5F5DC">
+
+                    <div style="height: 730px; width: 500px">
+                        <h4 class="text-center fw-bold pt-4 pb-3">Income</h4>
+
+                        <p class="class= ml-5" style="margin-left: 102px;">Income:<input id="income" class="ml-2"
+                                type="text"></p>
+
+
+                        <h5 class="fw-bold text-center mb-3">Expenses</h5>
+                        <p class="text-center">Food:
+                            <input id="food" type="text">
+                        </p>
+                        <p class="text-center">Rent:
+                            <input id="rent" type="text">
+                        </p>
+                        <p style="margin-left: 83px;"> Clothes:
+                            <input id="clothes" type="text">
+                        </p>
+                        <button id="calculate" type="button" class="btn btn-md mt-3"
+                            style="background: #59A5FF; margin-left: 200px;">Calculate</button>
+                        <h5 class="text-center fw-bold mt-5 mb-4">Total Expenses: $<span id="totalExpenses">5500</span>
+                        </h5>
+                        <h5 class="text-center fw-bold mb-4">Balance: $<span id="balance">4500</span></h5>
+
+                        <p>Save: <input id="save-input" type="text"><span> % <button id="save-button" type="button"
+                                    class="btn btn-md"
+                                    style="background: #59A5FF;  height: 33px; width: 190px;">Save</button></span>
+                        </p>
+
+                        <h5 class="text-center fw-bold mb-4 mt-5">Saving Amount: $<span id="savingAmount">2500</span>
+                        </h5>
+
+                        <h5 class="text-center fw-bold mb-4">Remaining Balance: $<span
+                                id="remaining-balance">2500</span>
+                        </h5>
+
+
+
+
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- ===========================Js Link================ -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="calculation.js"></script>
+</body>
+
+</html>
